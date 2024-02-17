@@ -7,24 +7,24 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(233, 229, 14);
 }
 
-.anniversary-card {
-    border: 5px solid white;
+.card {
+    border: 5px solid rgb(190, 168, 162);
     padding: 50px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: rgba(233, 229, 14) 0px 3px 150px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
 }
 
-#countdown {
+#count {
     font-size: 2em;
     margin-top: 20px;
 }
 
-#countdown span {
+#countspan {
     font-weight: bold;
     margin: 0 10px;
 }
