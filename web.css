@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive; /* Placeholder for hand-written style font */
+    background: linear-gradient(135deg, #f85032, #e73827);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.anniversary-card {
+    border: 5px solid white;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+#countdown {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#countdown span {
+    font-weight: bold;
+    margin: 0 10px;
+}
